@@ -1,3 +1,6 @@
-build
-deploy
-target
+target/
+bin/
+.settings/
+.project
+.classpath
+
