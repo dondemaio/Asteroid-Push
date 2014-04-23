@@ -49,6 +49,12 @@
 			<groupId>org.slick2d</groupId>
 			<artifactId>slick2d-core</artifactId>
 			<version>${slick2d.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.jnlp</groupId>
+					<artifactId>jnlp-api</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.jbox2d</groupId>
