@@ -4,7 +4,7 @@ To get this compiled and running you will need the following:
 - JDK 7 
 - Apache Maven 3.1.1 (I guess what matters is that it supports POM 4.0.0)
 
-Packaging the game is just a matter of typing 'mvn package'.
+Once you have everything installed you can package the game using 'mvn clean package'.
 
 Cheers
     Christian Meyer
